@@ -1,0 +1,48 @@
+body {background: #eee;}
+
+.intro {
+    background: url(../img/grass-bg.jpg) no-repeat fixed center center;
+    padding: 40px 0;
+}
+.intro h1, .intro h2
+{background: rgba(255, 255, 255, 0.9);display: block;width: 90%;margin: 6px auto;text-align: center;}
+
+.skills li span {
+    padding: 10px;
+    display: block;
+    pointer-events: none;
+}
+
+.skills li:hover span {
+    transform: rotateZ(-5deg) scale(1.5, 1.5);
+    transition: .5s;
+}
+
+.skills li:hover {
+    background: #555;
+    transition: .5s;
+}
+
+.skills li {
+    background: #222;
+    list-style-type: none;
+    color: #6CE86C;
+    width: 33%;
+    display: inline-block;
+    margin: 0 -3px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-left: 2px solid #FFF;
+    height: 110px;
+    line-height: 110px;
+    font-size: 3w;
+}
+
+.skills ul {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    clear: both;
+}
+

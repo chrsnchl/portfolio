@@ -18,10 +18,11 @@
         </div>
 
         <!-- Use any element to open the sidenav -->
-        <span onclick="openNav()">MENU</span>
+        <span class="nav-button" onclick="openNav()">
+<i class="fa fa-bars fa-2x"></i>
+</span>
 
         <!-- add all page content inside main div, to push content aside with menu -->
         <div id="main">
             <!-- closing tag is in views/footer.php -->
 
-        <h1>Chris Nichol | Developer</h1>

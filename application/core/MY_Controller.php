@@ -11,7 +11,8 @@ class MY_Controller extends CI_Controller
 
       $this->data['css'] = array(
           base_url().'assets/css/pages.css',
-          'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'
+          'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css',
+          'https://fonts.googleapis.com/css?family=Raleway:400,700'
       );
       $this->data['js'] = array('program.js');
   }
